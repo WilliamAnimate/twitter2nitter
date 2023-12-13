@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "Twitter to Nitter",
+	"version": "1.0.0",
+	"description": "Redirects Twitter links to Nitter instead, protecting your privacy.",
+	"permissions": [
+		"webNavigation",
+		"*://twitter.com/"
+	],
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"content_scripts": [
+		{
+			"matches": ["*://twitter.com/*"],
+			"js": ["content.js"]
+		}
+	]
+}
