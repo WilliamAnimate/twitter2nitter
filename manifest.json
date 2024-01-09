@@ -5,7 +5,8 @@
 	"description": "Redirects Twitter links to Nitter instead, protecting your privacy.",
 	"permissions": [
 		"webNavigation",
-		"*://twitter.com/"
+		"*://twitter.com/",
+		"*://x.com/"
 	],
 	"background": {
 		"scripts": ["background.js"],
@@ -13,7 +14,7 @@
 	},
 	"content_scripts": [
 		{
-			"matches": ["*://twitter.com/*"]
+			"matches": ["*://twitter.com/*", "*://x.com/"]
 		}
 	]
 }
