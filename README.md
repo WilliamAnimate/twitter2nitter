@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> [nitter](https://github.com/zedeus/nitter) is dead because Elon sucks. We've had a good run.
+
 # twitter2nitter
 
 Literally redirects from https://twitter.com to https://nitter.net.
