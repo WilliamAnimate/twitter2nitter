@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Twitter to Nitter",
-	"version": "1.0.2.3",
+	"version": "1.0.2.4",
 	"description": "Redirects Twitter links to Nitter instead, protecting your privacy.",
 	"permissions": [
 		"webNavigation"
