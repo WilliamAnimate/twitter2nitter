@@ -2,10 +2,10 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
-chrome.webNavigation.onBeforeNavigate.addListener(function(d) {
-	const url = new URL(d.url);
+chrome.webNavigation.onBeforeNavigate.addListener(function(details) {
+	const url = new URL(details.url);
 	if (url.hostname == 'twitter.com' || url.hostname == 'x.com') {
 		const newUrl = 'https://xcancel.com' + url.pathname + url.search + url.hash;
-		chrome.tabs.update(d.tabId, {url: newUrl});
+		chrome.tabs.update(details.tabId, {url: newUrl});
 	}
 });
