@@ -1,7 +1,6 @@
 # twitter2nitter
 
-Literally redirects from https://twitter.com to https://nitter.net.
+Redirects your Twitter/X page to Nitter, that's it.
 
-*psst! this also works for anything after the domain as well! https://twitter.com/nightmargin goes to https://nitter.net/nightmargin*
-
-[Download the extension (firefox only)!](https://addons.mozilla.org/en-US/firefox/addon/twitter-to-nitter)
+Firefox users can [download the extension here](https://addons.mozilla.org/en-US/firefox/addon/twitter-to-nitter).
+Chrome users have to manually add the extension.
