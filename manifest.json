@@ -2,7 +2,7 @@
 	"manifest_version": 3,
 	"name": "Twitter to Nitter",
 	"version": "1.0.2.4",
-	"description": "Redirects Twitter links to Nitter instead, protecting your privacy.",
+	"description": "Redirects Twitter/X to Nitter (X Cancelled) for a private, ad-free experience.",
 	"permissions": [
 		"webNavigation"
 	],
